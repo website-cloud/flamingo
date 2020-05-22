@@ -1,0 +1,237 @@
+@charset "UTF-8";
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+body .menu-wrap ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .menu-wrap ul li {
+  position: relative;
+  left: -30px;
+  width: 20%;
+  list-style-type: none;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+body .menu-wrap ul li a {
+  text-decoration: none;
+  letter-spacing: 5px;
+  color: #ffd6dd;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+body nav {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #fff;
+  background-color: #ffd6dd;
+  font-size: 27px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+body .wraper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body .wraper header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .wraper header .headerh1 {
+  padding-left: 100px;
+}
+
+body .wraper header h1 {
+  padding-top: 150px;
+  background: -webkit-gradient(linear, right top, left bottom, from(#e2a9d1), color-stop(#cf77a2), to(#871eaf));
+  background: linear-gradient(to bottom left, #e2a9d1, #cf77a2, #871eaf);
+  font-size: 2em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: lighter;
+  text-shadow: 2px 2px 3px rgba(134, 91, 91, 0.2);
+}
+
+body .wraper header .gradient-all {
+  font-size: 2em;
+  background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  border: 3px solid transparent;
+  -o-border-image: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+     border-image: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+  border-image-slice: 1;
+}
+
+body .wraper header .head {
+  text-align: center;
+}
+
+body #yslygi {
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #ffd6dd), color-stop(50%, #fff));
+  background: linear-gradient(to top, #ffd6dd 50%, #fff 50%);
+  padding-bottom: 60px;
+}
+
+body #yslygi h1 {
+  text-align: center;
+}
+
+body #yslygi .yslygi1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+body #yslygi .yslygi1 .im {
+  width: 27%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 220px;
+  /* Высота области */
+  margin: 0 auto;
+  /* Обнуляем отступы */
+}
+
+body #yslygi .yslygi1 img {
+  width: 100%;
+  /* Ширина изображений */
+  height: 100%;
+  /* Высота изображении */
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* Вписываем фотографию в область */
+}
+
+body #yslygi .yslygi1 .nadpis {
+  border: 0px solid;
+  background-color: rgba(248, 248, 248, 0.7);
+  width: 30%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 5px;
+  position: absolute;
+  bottom: -10px;
+}
+
+body #onas {
+  background-image: url(..//image/h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 100vh;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+body #onas h1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 15px;
+}
+
+body #onas .wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body #onas #slider {
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+  height: 320px;
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+}
+
+body #onas .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 1s ease-in 0.1s;
+  transition: all 1s ease-in 0.1s;
+  left: 0;
+}
+
+body #onas .slide img {
+  width: 100%;
+}
+
+body #onas .arrows {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+}
+
+body #onas .arrow {
+  position: absolute;
+  cursor: pointer;
+}
+
+body #onas .no_active {
+  color: red;
+}
+
+body #onas .next {
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */
